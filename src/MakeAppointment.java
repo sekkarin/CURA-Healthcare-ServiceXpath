@@ -49,6 +49,7 @@ class MakeAppointment {
 		} else {
 			System.out.println("Fail");
 		}
+		assertEquals("Heart", result);
 		Thread.sleep(2000);
 		driver.quit();
 		
